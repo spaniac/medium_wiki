@@ -1,0 +1,6 @@
+﻿URL,결과,이유
+http://store.company.com/dir2/other.html,성공,경로만 다름
+http://store.company.com/dir/inner/another.html,성공,경로만 다름
+https://store.company.com/secure.html,실패,프로토콜 다름
+http://store.company.com:81/dir/etc.html,실패,포트 다름 (http://는 80이 기본값)
+http://news.company.com/dir/other.html,실패,호스트 다름
